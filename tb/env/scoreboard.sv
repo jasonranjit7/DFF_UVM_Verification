@@ -1,4 +1,4 @@
-`include "sequencer_item.sv"
+`include "./sequence_item.sv"
 class dff_scoreboard extends uvm_scoreboard;
   `uvm_component_utils(dff_scoreboard)
   

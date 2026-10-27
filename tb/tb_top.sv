@@ -1,8 +1,9 @@
 `include "uvm_macros.svh"
 import uvm_pkg::*;
 `include "interface.sv"
-`include "test.sv"
-module top();
+`include "test/test.sv"
+//`include "../dut/dff.v"
+module tb_top();
   
   logic clk;
   

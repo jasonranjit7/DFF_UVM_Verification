@@ -1,5 +1,5 @@
-`include "scoreboard.sv"
-`include "agent.sv"
+`include "./env/scoreboard.sv"
+`include "./agent/agent.sv"
 class dff_env extends uvm_env;
   `uvm_component_utils(dff_env)
   

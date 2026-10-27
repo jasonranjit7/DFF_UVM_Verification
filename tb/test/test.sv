@@ -1,4 +1,4 @@
-`include "environment.sv"
+`include "./env/environment.sv"
 `include "sequence.sv"
 class dff_test extends uvm_test;
   `uvm_component_utils(dff_test)
